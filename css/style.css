@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #936699;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.artPiece {
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+}
+
+.card {
+  border-radius: 10px;
+  width: 300px;
+  background-color: #6c9966;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
